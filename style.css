@@ -1,4 +1,4 @@
-.flex {
+.flexSinha {
   display: flex;
 }
 .bg-white {
@@ -7,7 +7,7 @@
 .text-white {
   color: #fff;
 }
-.border {
+.borderSinha {
   border-width: 1px;
 }
 .space-x-2 {
@@ -20,10 +20,10 @@
 .mt-2 {
   margin-top: 8px;
 }
-.border-gray-300 {
+.border-sinha-gray-300 {
   border-color: #dcdcdc;
 }
-.rounded-20 {
+.rounded-20-sinha {
   border-radius: 20px;
 }
 .float-left {
@@ -50,13 +50,13 @@
 .bg-f0f1f1 {
   background-color: #f0f1f1;
 }
-.justify-between {
+.justify-between-sinha {
   justify-content: space-between;
 }
 .p-2 {
   padding: 8px;
 }
-.items-center {
+.items-center-sinha {
   align-items: center;
 }
 .text-base {
@@ -65,10 +65,10 @@
 .gap-4 {
   gap: 15px;
 }
-.border-solid {
+.border-sinha-solid {
   border-style: solid;
 }
-.space-x-4 {
+.space-x-4-sinha {
   gap: 16px;
 }
 .mx-4 {
@@ -138,12 +138,15 @@
 .text-green {
   color: #00b67a;
 }
+.justify-center-sinha {
+  justify-content: center;
+}
 .btn {
   background: #dfd0b9;
   border-radius: 30px;
   color: #503e1f;
   cursor: pointer;
-  display: inline-block;
+  display: flex;
   font-size: 14px;
   height: 40px;
   line-height: 40px;
@@ -163,13 +166,13 @@
 .bg-fffbf5 {
   background-color: #fffbf5;
 }
-.font-bold {
+.font-bold-sinha {
   font-weight: bold;
 }
 .text-868686 {
   color: #868686;
 }
-.text-black {
+.text-custom-black {
   color: #000;
 }
 .hidden {
@@ -255,7 +258,7 @@
   .min-h-20 {
     min-height: 21rem;
   }
-  .sm-flex {
+  .sm-flexSinha {
     display: flex;
   }
   .w-75 {
